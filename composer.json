@@ -1,0 +1,22 @@
+{
+  "name": "Coolblue/TDD/Basic",
+  "description": "A basic calculator example for practicing TDD",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "wouter.nolten",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4.0",
+    "phpunit/phpunit": "^9.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Coolblue\\Calculator\\": "src/",
+      "Coolblue\\Tests\\": "tests/"
+    }
+  }
+}
