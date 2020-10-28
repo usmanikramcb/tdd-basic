@@ -9,6 +9,9 @@ use PHPUnit\Framework\TestCase;
 
 class CalculatorTest extends TestCase
 {
+    private const VALUE_ONE = 2;
+    private const VALUE_TWO = 4;
+
     private Calculator $calculator;
 
     public function setUp(): void
