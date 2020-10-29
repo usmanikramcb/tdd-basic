@@ -21,22 +21,27 @@ class CalculatorTest extends TestCase
         $this->calculator = new Calculator();
     }
 
-    public function testShouldAddTwoNumbers(): void
+    public function testShouldReturnTwoAddedNumbersOnAdd(): void
     {
         // hint: use self::assertEquals
     }
 
-    public function testShouldDivideTwoNumbers(): void
+    public function testShouldReturnTwoSubtractedNumbersOnSubtraction(): void
     {
         // hint: use self::assertEquals
     }
 
-    public function testShouldMultiplyTwoNumbers(): void
+    public function testShouldReturnDividedNumbersOnDivision(): void
     {
         // hint: use self::assertEquals
     }
 
-    public function testShouldSubtractTwoNumbers(): void
+    public function testShouldThrowErrorWhenDividingByZeroOnDivision(): void
+    {
+        // hint: use $this->expectException
+    }
+
+    public function testShouldReturnMultipliedNumbersOnMultiply(): void
     {
         // hint: use self::assertEquals
     }

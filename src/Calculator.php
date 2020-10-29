@@ -20,5 +20,6 @@ class Calculator
 
     public function divide(float $value1, float $value2): float
     {
+        // hint: use a try catch...
     }
 }
